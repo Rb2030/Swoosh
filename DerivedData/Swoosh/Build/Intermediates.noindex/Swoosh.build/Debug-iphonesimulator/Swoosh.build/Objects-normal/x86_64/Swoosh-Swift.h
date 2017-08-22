@@ -210,6 +210,7 @@ SWIFT_CLASS("_TtC6Swoosh12BorderButton")
 @end
 
 @class UIImageView;
+@class UIStoryboardSegue;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC6Swoosh14ViewController")
@@ -217,7 +218,8 @@ SWIFT_CLASS("_TtC6Swoosh14ViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified bgimg;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified swoosh;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (IBAction)unwindFromSkillVCWithUnwindSegue:(UIStoryboardSegue * _Nonnull)unwindSegue;
+- (IBAction)unwindToLeagueWithUnwindSegue:(UIStoryboardSegue * _Nonnull)unwindSegue;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
