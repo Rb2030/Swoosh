@@ -162,10 +162,13 @@ SWIFT_CLASS("_TtC6Swoosh12BorderButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC6Swoosh14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified bgimg;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified swoosh;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
