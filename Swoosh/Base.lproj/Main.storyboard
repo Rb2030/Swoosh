@@ -17,10 +17,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -31,28 +31,31 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="iMc-GW-HZr">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="IBh-nO-xEH"/>
+                                    <constraint firstAttribute="width" constant="375" id="ZB8-k5-vBJ"/>
+                                </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Djb-ZU-Tlw">
                                 <rect key="frame" x="128" y="40" width="119" height="20"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6K-1I-vCL">
-                                <rect key="frame" x="72.5" y="148" width="230" height="63"/>
+                                <rect key="frame" x="72" y="161" width="229.5" height="63"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="230" id="wTe-fW-Xe9"/>
+                                    <constraint firstAttribute="height" constant="63" id="JUQ-zQ-rvx"/>
+                                    <constraint firstAttribute="width" constant="229.5" id="Ofh-NC-v3c"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="46"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZe-x9-bCp">
-                                <rect key="frame" x="72.5" y="217" width="230" height="31.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZe-x9-bCp">
+                                <rect key="frame" x="72" y="232" width="229.5" height="31.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229.5" id="ECL-td-Qkj"/>
+                                    <constraint firstAttribute="height" constant="31.5" id="gtp-qc-YMl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="FIND A TEAM IN YOUR CITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzK-A0-4Hp">
-                                <rect key="frame" x="72.5" y="266" width="230" height="22"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -72,40 +75,46 @@
                                     <segue destination="Lwf-Fl-Z9H" kind="show" id="ba4-RG-a6X"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIND A TEAM IN YOUR CITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzK-A0-4Hp">
+                                <rect key="frame" x="73" y="287" width="229.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="FS1-Mm-hgb"/>
+                                    <constraint firstAttribute="width" constant="229.5" id="pTe-Jg-glU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cZe-x9-bCp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1tA-sg-ZRN"/>
-                            <constraint firstItem="iMc-GW-HZr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Ws-8J-V0Y"/>
+                            <constraint firstItem="wzK-A0-4Hp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0NI-Oa-N42"/>
+                            <constraint firstItem="iMc-GW-HZr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="24E-PW-yaM"/>
+                            <constraint firstItem="wzK-A0-4Hp" firstAttribute="top" secondItem="cZe-x9-bCp" secondAttribute="bottom" constant="23.5" id="2f6-pH-kLy"/>
                             <constraint firstItem="wm0-ko-uDR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2j4-fv-Kth"/>
-                            <constraint firstItem="wzK-A0-4Hp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9JC-Ka-5xZ"/>
-                            <constraint firstItem="L6K-1I-vCL" firstAttribute="top" secondItem="Djb-ZU-Tlw" secondAttribute="bottom" constant="88" id="Aom-Ss-TwP"/>
-                            <constraint firstItem="L6K-1I-vCL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jrk-6g-rug"/>
-                            <constraint firstAttribute="bottom" secondItem="iMc-GW-HZr" secondAttribute="bottom" id="LuM-C4-Zu5"/>
-                            <constraint firstItem="wzK-A0-4Hp" firstAttribute="width" secondItem="cZe-x9-bCp" secondAttribute="width" id="Mb3-xH-iu9"/>
+                            <constraint firstAttribute="trailing" secondItem="iMc-GW-HZr" secondAttribute="trailing" id="9eE-1s-uvz"/>
+                            <constraint firstItem="L6K-1I-vCL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CaE-9a-anD"/>
+                            <constraint firstItem="L6K-1I-vCL" firstAttribute="top" secondItem="Djb-ZU-Tlw" secondAttribute="bottom" constant="101" id="FQD-Wb-ezz"/>
+                            <constraint firstItem="cZe-x9-bCp" firstAttribute="top" secondItem="L6K-1I-vCL" secondAttribute="bottom" constant="8" id="K0I-OW-Jyr"/>
                             <constraint firstItem="Djb-ZU-Tlw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nkx-r3-1bn"/>
-                            <constraint firstAttribute="trailing" secondItem="iMc-GW-HZr" secondAttribute="trailing" id="PCA-RK-gIb"/>
+                            <constraint firstItem="iMc-GW-HZr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="T6E-6C-mVi"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wm0-ko-uDR" secondAttribute="bottom" constant="20" id="YLu-8C-nLU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iMc-GW-HZr" secondAttribute="bottom" id="Yp6-dX-2NM"/>
                             <constraint firstItem="Djb-ZU-Tlw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="cQw-nY-inI"/>
-                            <constraint firstItem="wzK-A0-4Hp" firstAttribute="top" secondItem="cZe-x9-bCp" secondAttribute="bottom" constant="16" id="e7l-lx-naO"/>
-                            <constraint firstItem="iMc-GW-HZr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iEa-Oj-dUT"/>
                             <constraint firstItem="wm0-ko-uDR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iIu-NI-xzB"/>
-                            <constraint firstItem="cZe-x9-bCp" firstAttribute="width" secondItem="L6K-1I-vCL" secondAttribute="width" id="nMz-5l-f0q"/>
+                            <constraint firstItem="iMc-GW-HZr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l3g-qg-Afv"/>
+                            <constraint firstItem="cZe-x9-bCp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m0p-tl-jJs"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bgimg" destination="iMc-GW-HZr" id="xMY-Nf-XZV"/>
-                        <outlet property="swoosh" destination="Djb-ZU-Tlw" id="4VX-6a-HOb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-163" y="121"/>
+            <point key="canvasLocation" x="-164" y="120.98950524737631"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="xjR-dw-mKf">
             <objects>
-                <viewController id="Lwf-Fl-Z9H" sceneMemberID="viewController">
+                <viewController id="Lwf-Fl-Z9H" customClass="LeagueVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v9c-JU-WZX"/>
                         <viewControllerLayoutGuide type="bottom" id="dPl-rK-ihl"/>
@@ -227,10 +236,10 @@
             </objects>
             <point key="canvasLocation" x="522.39999999999998" y="119.1904047976012"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="Bra-WG-Qns">
             <objects>
-                <viewController id="vtD-cs-1mM" sceneMemberID="viewController">
+                <viewController id="vtD-cs-1mM" customClass="SkillVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2cZ-VD-zjc"/>
                         <viewControllerLayoutGuide type="bottom" id="fZv-4n-1sI"/>

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91B86B011F4D9501009E9B73 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B86B001F4D9501009E9B73 /* LeagueVC.swift */; };
+		91B86B031F4D9734009E9B73 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B86B021F4D9734009E9B73 /* SkillVC.swift */; };
 		91C329C31F4B626700A661F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C329C21F4B626700A661F4 /* AppDelegate.swift */; };
-		91C329C51F4B626700A661F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C329C41F4B626700A661F4 /* ViewController.swift */; };
+		91C329C51F4B626700A661F4 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C329C41F4B626700A661F4 /* WelcomeVC.swift */; };
 		91C329C81F4B626700A661F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C329C61F4B626700A661F4 /* Main.storyboard */; };
 		91C329CA1F4B626700A661F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C329C91F4B626700A661F4 /* Assets.xcassets */; };
 		91C329CD1F4B626700A661F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C329CB1F4B626700A661F4 /* LaunchScreen.storyboard */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91B86B001F4D9501009E9B73 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		91B86B021F4D9734009E9B73 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		91C329BF1F4B626700A661F4 /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C329C21F4B626700A661F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91C329C41F4B626700A661F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91C329C41F4B626700A661F4 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		91C329C71F4B626700A661F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91C329C91F4B626700A661F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91C329CC1F4B626700A661F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91B86AFE1F4D93D6009E9B73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91C329C41F4B626700A661F4 /* WelcomeVC.swift */,
+				91B86B001F4D9501009E9B73 /* LeagueVC.swift */,
+				91B86B021F4D9734009E9B73 /* SkillVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		91B86AFF1F4D93DE009E9B73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		91C329B61F4B626700A661F4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +77,10 @@
 		91C329C11F4B626700A661F4 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				91C329D41F4B6BE200A661F4 /* Views */,
+				91B86AFF1F4D93DE009E9B73 /* Model */,
+				91B86AFE1F4D93D6009E9B73 /* Controller */,
+				91C329D41F4B6BE200A661F4 /* View */,
 				91C329C21F4B626700A661F4 /* AppDelegate.swift */,
-				91C329C41F4B626700A661F4 /* ViewController.swift */,
 				91C329C61F4B626700A661F4 /* Main.storyboard */,
 				91C329C91F4B626700A661F4 /* Assets.xcassets */,
 				91C329CB1F4B626700A661F4 /* LaunchScreen.storyboard */,
@@ -67,12 +89,12 @@
 			path = Swoosh;
 			sourceTree = "<group>";
 		};
-		91C329D41F4B6BE200A661F4 /* Views */ = {
+		91C329D41F4B6BE200A661F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				91C329D51F4B6C6900A661F4 /* BorderButton.swift */,
 			);
-			name = Views;
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +124,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Training;
 				TargetAttributes = {
 					91C329BE1F4B626700A661F4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -147,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91C329C51F4B626700A661F4 /* ViewController.swift in Sources */,
+				91C329C51F4B626700A661F4 /* WelcomeVC.swift in Sources */,
+				91B86B011F4D9501009E9B73 /* LeagueVC.swift in Sources */,
 				91C329C31F4B626700A661F4 /* AppDelegate.swift in Sources */,
 				91C329D61F4B6C6900A661F4 /* BorderButton.swift in Sources */,
+				91B86B031F4D9734009E9B73 /* SkillVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +210,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -193,7 +220,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,7 +267,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -244,7 +277,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -279,7 +316,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.training.Swoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -292,7 +330,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.training.Swoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -315,6 +354,7 @@
 				91C329D31F4B626700A661F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
