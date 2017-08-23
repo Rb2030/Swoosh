@@ -213,8 +213,13 @@ SWIFT_CLASS("_TtC6Swoosh12BorderButton")
 
 SWIFT_CLASS("_TtC6Swoosh8LeagueVC")
 @interface LeagueVC : UIViewController
+@property (nonatomic, weak) IBOutlet BorderButton * _Null_unspecified nextBtn;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (IBAction)onNextTapped:(id _Nonnull)sender;
+- (IBAction)onMensTapped:(id _Nonnull)sender;
+- (IBAction)onWomensTapped:(id _Nonnull)sender;
+- (IBAction)onCoedTapped:(id _Nonnull)sender;
+- (void)selectLeagueWithLeagueType:(NSString * _Nonnull)leagueType SWIFT_DEPRECATED_OBJC("Swift method 'LeagueVC.selectLeague(leagueType:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

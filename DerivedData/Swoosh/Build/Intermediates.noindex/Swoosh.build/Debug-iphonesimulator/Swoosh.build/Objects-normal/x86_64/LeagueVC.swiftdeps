@@ -6,111 +6,342 @@ provides-nominal:
 provides-member:
 - ["6Swoosh8LeagueVCC", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
+- "nextBtn"
+- "onCoedTapped"
+- "onMensTapped"
+- "onNextTapped"
+- "onWomensTapped"
+- "selectLeague"
 - "viewDidLoad"
 depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "BorderButton"
 - "LeagueVC"
+- "Player"
+- "String"
+- !private "StringLiteralType"
 - "UIViewController"
 depends-member:
-- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["6Swoosh12BorderButtonC", "isEnabled"]
+- !private ["So15CALayerDelegateP", "isEnabled"]
+- !private ["s7CVarArgP", "Player"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "nextBtn"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "selectLeague"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Player"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "nextBtn"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "selectLeague"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Player"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "nextBtn"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "selectLeague"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Player"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEnabled"]
+- !private ["s9EquatableP", "nextBtn"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "player"]
+- !private ["s9EquatableP", "selectLeague"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
-- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Player"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEnabled"]
+- !private ["s8HashableP", "nextBtn"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "selectLeague"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
+- ["6Swoosh8LeagueVCC", "BorderButton"]
+- ["6Swoosh8LeagueVCC", "Player"]
+- ["6Swoosh8LeagueVCC", "String"]
 - ["6Swoosh8LeagueVCC", "deinit"]
-- ["6Swoosh8LeagueVCC", "didReceiveMemoryWarning"]
 - ["6Swoosh8LeagueVCC", "init"]
+- ["6Swoosh8LeagueVCC", "nextBtn"]
+- ["6Swoosh8LeagueVCC", "onCoedTapped"]
+- ["6Swoosh8LeagueVCC", "onMensTapped"]
+- ["6Swoosh8LeagueVCC", "onNextTapped"]
+- ["6Swoosh8LeagueVCC", "onWomensTapped"]
+- !private ["6Swoosh8LeagueVCC", "performSegue"]
+- ["6Swoosh8LeagueVCC", "player"]
+- ["6Swoosh8LeagueVCC", "selectLeague"]
 - ["6Swoosh8LeagueVCC", "viewDidLoad"]
-- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Player"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "nextBtn"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "selectLeague"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Player"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "nextBtn"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- !private ["So26NSExtensionRequestHandlingP", "selectLeague"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "BorderButton"]
+- ["So8NSObjectC", "Player"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
+- ["So8NSObjectC", "nextBtn"]
+- ["So8NSObjectC", "onCoedTapped"]
+- ["So8NSObjectC", "onMensTapped"]
+- ["So8NSObjectC", "onNextTapped"]
+- ["So8NSObjectC", "onWomensTapped"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "selectLeague"]
 - ["So8NSObjectC", "viewDidLoad"]
-- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "Player"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEnabled"]
+- !private ["So16NSObjectProtocolP", "nextBtn"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "selectLeague"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
-- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["6Swoosh6PlayerV", "desiredLeague"]
+- !private ["6Swoosh6PlayerV", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So21UIAppearanceContainerP", "Player"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isEnabled"]
+- !private ["So21UIAppearanceContainerP", "nextBtn"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- !private ["So21UIAppearanceContainerP", "selectLeague"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So8UIButtonC", "isEnabled"]
+- !private ["So18UIContentContainerP", "Player"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "nextBtn"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "player"]
+- !private ["So18UIContentContainerP", "selectLeague"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
-- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So9UIControlC", "isEnabled"]
+- !private ["So17UICoordinateSpaceP", "isEnabled"]
+- !private ["So13UIDynamicItemP", "isEnabled"]
+- !private ["So18UIFocusEnvironmentP", "Player"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isEnabled"]
+- !private ["So18UIFocusEnvironmentP", "nextBtn"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- !private ["So18UIFocusEnvironmentP", "selectLeague"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So11UIFocusItemP", "isEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "Player"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "nextBtn"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectLeague"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "BorderButton"]
+- ["So11UIResponderC", "Player"]
+- ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isEnabled"]
+- ["So11UIResponderC", "nextBtn"]
+- ["So11UIResponderC", "onCoedTapped"]
+- ["So11UIResponderC", "onMensTapped"]
+- ["So11UIResponderC", "onNextTapped"]
+- ["So11UIResponderC", "onWomensTapped"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "selectLeague"]
 - ["So11UIResponderC", "viewDidLoad"]
-- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "Player"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "nextBtn"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- !private ["So30UIResponderStandardEditActionsP", "selectLeague"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- !private ["So16UIStateRestoringP", "Player"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "nextBtn"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "player"]
+- !private ["So16UIStateRestoringP", "selectLeague"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "Player"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isEnabled"]
+- !private ["So18UITraitEnvironmentP", "nextBtn"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- !private ["So18UITraitEnvironmentP", "selectLeague"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
-- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So6UIViewC", "isEnabled"]
+- ["So16UIViewControllerC", "BorderButton"]
+- ["So16UIViewControllerC", "Player"]
+- ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nextBtn"]
+- ["So16UIViewControllerC", "onCoedTapped"]
+- ["So16UIViewControllerC", "onMensTapped"]
+- ["So16UIViewControllerC", "onNextTapped"]
+- ["So16UIViewControllerC", "onWomensTapped"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "player"]
+- ["So16UIViewControllerC", "selectLeague"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isEnabled"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Player"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextBtn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectLeague"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "6Swoosh12BorderButtonC"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
 - "6Swoosh8LeagueVCC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "6Swoosh6PlayerV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
 - "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -126,4 +357,4 @@ depends-external:
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "6c8b76143af833e22161c83888c38bb1"
+interface-hash: "9de860325d7a1a6f9320bd4a83ba6ea9"
